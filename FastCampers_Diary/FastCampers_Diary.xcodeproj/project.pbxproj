@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09517BBE2859B0C1004C9488 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09517BBD2859B0C1004C9488 /* Diary.swift */; };
 		09A7FAE828574FEF00E3AAB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7FAE728574FEF00E3AAB4 /* AppDelegate.swift */; };
 		09A7FAEA28574FEF00E3AAB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7FAE928574FEF00E3AAB4 /* SceneDelegate.swift */; };
 		09A7FAEC28574FEF00E3AAB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7FAEB28574FEF00E3AAB4 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09517BBD2859B0C1004C9488 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		09A7FAE428574FEF00E3AAB4 /* FastCampers_Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampers_Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A7FAE728574FEF00E3AAB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A7FAE928574FEF00E3AAB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				09A7FAFF28575C5C00E3AAB4 /* StarCell.swift */,
 				09A7FB0128575DCE00E3AAB4 /* WriteDiaryController.swift */,
 				09A7FB0328575E3000E3AAB4 /* DiaryDetailViewController.swift */,
+				09517BBD2859B0C1004C9488 /* Diary.swift */,
 			);
 			path = FastCampers_Diary;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				09A7FAE828574FEF00E3AAB4 /* AppDelegate.swift in Sources */,
 				09A7FB0228575DCE00E3AAB4 /* WriteDiaryController.swift in Sources */,
 				09A7FAEA28574FEF00E3AAB4 /* SceneDelegate.swift in Sources */,
+				09517BBE2859B0C1004C9488 /* Diary.swift in Sources */,
 				09A7FB0428575E3000E3AAB4 /* DiaryDetailViewController.swift in Sources */,
 				09A7FAFC28575B2600E3AAB4 /* DiaryCell.swift in Sources */,
 				09A7FAFE28575B6E00E3AAB4 /* StarViewController.swift in Sources */,

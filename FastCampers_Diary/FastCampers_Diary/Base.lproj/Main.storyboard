@@ -30,7 +30,7 @@
         <!--View Controller-->
         <scene sceneID="VDi-aO-uT9">
             <objects>
-                <viewController id="EBu-6o-dZe" sceneMemberID="viewController">
+                <viewController id="EBu-6o-dZe" customClass="ViewController" customModule="FastCampers_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uul-UV-uxP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,15 +45,15 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiartCell" id="NAN-Pa-xrn" customClass="DiaryCell" customModule="FastCampers_Diary" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DiaryCell" id="NAN-Pa-xrn" customClass="DiaryCell" customModule="FastCampers_Diary" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wG4-Gf-zYQ">
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-t2-azg">
-                                                    <rect key="frame" x="12" y="12" width="156" height="143"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZV-t2-azg">
+                                                    <rect key="frame" x="12" y="13" width="156" height="143"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -76,6 +76,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="180" height="200"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="usZ-pe-gWR" id="BF5-g9-Fat"/>
+                                            <outlet property="titleLabel" destination="8ZV-t2-azg" id="abI-m0-tz9"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -96,6 +100,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="AsX-yj-Eju" id="bHb-b6-mxk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUI-5r-loe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -168,6 +175,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="400" height="80"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="5fU-US-a1C" id="vZF-hx-wLF"/>
+                                            <outlet property="titleLabel" destination="Mu5-Su-ix5" id="4j1-GU-Zi3"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -182,6 +193,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="juW-5p-YvR"/>
+                    <connections>
+                        <outlet property="collectionView" destination="s3o-hu-9Ar" id="E9N-zD-o1p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4V-Gw-w78" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -207,7 +221,7 @@
         <!--일기 작성-->
         <scene sceneID="CRv-mY-9G0">
             <objects>
-                <viewController id="IVA-5C-Jdg" customClass="WriteDiaryController" customModule="FastCampers_Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WriteDiaryController" id="IVA-5C-Jdg" customClass="WriteDiaryController" customModule="FastCampers_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4lW-ag-nKx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,8 +289,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="일기 작성" id="2dv-jE-OPo">
-                        <barButtonItem key="rightBarButtonItem" title="등록" id="W1T-Tw-LaJ"/>
+                        <barButtonItem key="rightBarButtonItem" title="등록" id="W1T-Tw-LaJ">
+                            <connections>
+                                <action selector="tabConfirmBtn:" destination="IVA-5C-Jdg" id="EE8-Si-gSh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="confirmBtn" destination="W1T-Tw-LaJ" id="Doc-Zk-9CL"/>
+                        <outlet property="contentTxt" destination="dhc-DZ-Sa1" id="5iJ-dR-QtR"/>
+                        <outlet property="dateTxt" destination="xff-0j-K4L" id="Aln-Gf-c7J"/>
+                        <outlet property="titleTxt" destination="BNc-OQ-cPS" id="NaQ-1n-qFj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyS-uG-wIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -285,7 +309,7 @@
         <!--Diary Detail View Controller-->
         <scene sceneID="gYG-xD-5Db">
             <objects>
-                <viewController id="4Fz-rK-OSt" customClass="DiaryDetailViewController" customModule="FastCampers_Diary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiaryDetailViewController" id="4Fz-rK-OSt" customClass="DiaryDetailViewController" customModule="FastCampers_Diary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jjn-bz-cyK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,6 +371,9 @@
                                         <rect key="frame" x="0.0" y="0.0" width="48.5" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="수정"/>
+                                        <connections>
+                                            <action selector="editBtn:" destination="4Fz-rK-OSt" eventType="touchUpInside" id="5xC-Xe-dpc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnD-N1-P4c">
                                         <rect key="frame" x="98.5" y="0.0" width="48.5" height="31"/>
@@ -354,6 +381,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="삭제">
                                             <color key="baseForegroundColor" systemColor="systemPinkColor"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="removeBtn:" destination="4Fz-rK-OSt" eventType="touchUpInside" id="0os-Se-1jp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -377,6 +407,11 @@
                             <constraint firstItem="BTd-NO-5rE" firstAttribute="top" secondItem="sLi-BB-Vp3" secondAttribute="bottom" constant="12" id="yje-89-VNB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="contentTxt" destination="BTd-NO-5rE" id="fOh-hw-IPG"/>
+                        <outlet property="dateLabel" destination="6za-0z-whj" id="8OY-aY-5hy"/>
+                        <outlet property="titleLabel" destination="alK-0A-zWd" id="TQz-ck-FgM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNd-1d-QK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

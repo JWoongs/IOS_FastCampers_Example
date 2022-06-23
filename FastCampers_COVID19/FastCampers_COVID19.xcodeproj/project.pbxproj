@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093E09272862ECB5004FDE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E09262862ECB5004FDE2A /* AppDelegate.swift */; };
+		093E09292862ECB5004FDE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E09282862ECB5004FDE2A /* SceneDelegate.swift */; };
+		093E092B2862ECB5004FDE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E092A2862ECB5004FDE2A /* ViewController.swift */; };
+		093E092E2862ECB5004FDE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093E092C2862ECB5004FDE2A /* Main.storyboard */; };
+		093E09302862ECB6004FDE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093E092F2862ECB6004FDE2A /* Assets.xcassets */; };
+		093E09332862ECB6004FDE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093E09312862ECB6004FDE2A /* LaunchScreen.storyboard */; };
+		093E093B2862F48B004FDE2A /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E093A2862F48B004FDE2A /* CovidDetailViewController.swift */; };
+		093E093D2862FDA8004FDE2A /* cityCovidOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093E093C2862FDA8004FDE2A /* cityCovidOverview.swift */; };
+		3D2145536BA250297D7DABA4 /* Pods_FastCampers_COVID19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB0B8AE027C905F3E7AB99 /* Pods_FastCampers_COVID19.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093E09232862ECB5004FDE2A /* FastCampers_COVID19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampers_COVID19.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093E09262862ECB5004FDE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		093E09282862ECB5004FDE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		093E092A2862ECB5004FDE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		093E092D2862ECB5004FDE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093E092F2862ECB6004FDE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093E09322862ECB6004FDE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		093E09342862ECB6004FDE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093E093A2862F48B004FDE2A /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
+		093E093C2862FDA8004FDE2A /* cityCovidOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityCovidOverview.swift; sourceTree = "<group>"; };
+		1BB9156248F6B2D44B116384 /* Pods-FastCampers_COVID19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCampers_COVID19.debug.xcconfig"; path = "Target Support Files/Pods-FastCampers_COVID19/Pods-FastCampers_COVID19.debug.xcconfig"; sourceTree = "<group>"; };
+		7ADB0B8AE027C905F3E7AB99 /* Pods_FastCampers_COVID19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastCampers_COVID19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9643E550564C2B9D640466 /* Pods-FastCampers_COVID19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCampers_COVID19.release.xcconfig"; path = "Target Support Files/Pods-FastCampers_COVID19/Pods-FastCampers_COVID19.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093E09202862ECB5004FDE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2145536BA250297D7DABA4 /* Pods_FastCampers_COVID19.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093E091A2862ECB5004FDE2A = {
+			isa = PBXGroup;
+			children = (
+				093E09252862ECB5004FDE2A /* FastCampers_COVID19 */,
+				093E09242862ECB5004FDE2A /* Products */,
+				B4688D64104FF5E52632E31B /* Pods */,
+				BD67670F33BE8EBA9A7E04B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		093E09242862ECB5004FDE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093E09232862ECB5004FDE2A /* FastCampers_COVID19.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093E09252862ECB5004FDE2A /* FastCampers_COVID19 */ = {
+			isa = PBXGroup;
+			children = (
+				093E09262862ECB5004FDE2A /* AppDelegate.swift */,
+				093E09282862ECB5004FDE2A /* SceneDelegate.swift */,
+				093E092A2862ECB5004FDE2A /* ViewController.swift */,
+				093E092C2862ECB5004FDE2A /* Main.storyboard */,
+				093E092F2862ECB6004FDE2A /* Assets.xcassets */,
+				093E09312862ECB6004FDE2A /* LaunchScreen.storyboard */,
+				093E09342862ECB6004FDE2A /* Info.plist */,
+				093E093A2862F48B004FDE2A /* CovidDetailViewController.swift */,
+				093E093C2862FDA8004FDE2A /* cityCovidOverview.swift */,
+			);
+			path = FastCampers_COVID19;
+			sourceTree = "<group>";
+		};
+		B4688D64104FF5E52632E31B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BB9156248F6B2D44B116384 /* Pods-FastCampers_COVID19.debug.xcconfig */,
+				DA9643E550564C2B9D640466 /* Pods-FastCampers_COVID19.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD67670F33BE8EBA9A7E04B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB0B8AE027C905F3E7AB99 /* Pods_FastCampers_COVID19.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093E09222862ECB5004FDE2A /* FastCampers_COVID19 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093E09372862ECB6004FDE2A /* Build configuration list for PBXNativeTarget "FastCampers_COVID19" */;
+			buildPhases = (
+				B6B6D74B4B70841C3485E14A /* [CP] Check Pods Manifest.lock */,
+				093E091F2862ECB5004FDE2A /* Sources */,
+				093E09202862ECB5004FDE2A /* Frameworks */,
+				093E09212862ECB5004FDE2A /* Resources */,
+				5B1F1E76AEE8E5F1D82898DC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCampers_COVID19;
+			productName = FastCampers_COVID19;
+			productReference = 093E09232862ECB5004FDE2A /* FastCampers_COVID19.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093E091B2862ECB5004FDE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					093E09222862ECB5004FDE2A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 093E091E2862ECB5004FDE2A /* Build configuration list for PBXProject "FastCampers_COVID19" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093E091A2862ECB5004FDE2A;
+			productRefGroup = 093E09242862ECB5004FDE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093E09222862ECB5004FDE2A /* FastCampers_COVID19 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093E09212862ECB5004FDE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093E09332862ECB6004FDE2A /* LaunchScreen.storyboard in Resources */,
+				093E09302862ECB6004FDE2A /* Assets.xcassets in Resources */,
+				093E092E2862ECB5004FDE2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B1F1E76AEE8E5F1D82898DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCampers_COVID19/Pods-FastCampers_COVID19-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCampers_COVID19/Pods-FastCampers_COVID19-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCampers_COVID19/Pods-FastCampers_COVID19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B6D74B4B70841C3485E14A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCampers_COVID19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093E091F2862ECB5004FDE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093E092B2862ECB5004FDE2A /* ViewController.swift in Sources */,
+				093E093D2862FDA8004FDE2A /* cityCovidOverview.swift in Sources */,
+				093E093B2862F48B004FDE2A /* CovidDetailViewController.swift in Sources */,
+				093E09272862ECB5004FDE2A /* AppDelegate.swift in Sources */,
+				093E09292862ECB5004FDE2A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		093E092C2862ECB5004FDE2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093E092D2862ECB5004FDE2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093E09312862ECB6004FDE2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093E09322862ECB6004FDE2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093E09352862ECB6004FDE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093E09362862ECB6004FDE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093E09382862ECB6004FDE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB9156248F6B2D44B116384 /* Pods-FastCampers_COVID19.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_COVID19/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-COVID19";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093E09392862ECB6004FDE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9643E550564C2B9D640466 /* Pods-FastCampers_COVID19.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_COVID19/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-COVID19";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093E091E2862ECB5004FDE2A /* Build configuration list for PBXProject "FastCampers_COVID19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093E09352862ECB6004FDE2A /* Debug */,
+				093E09362862ECB6004FDE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093E09372862ECB6004FDE2A /* Build configuration list for PBXNativeTarget "FastCampers_COVID19" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093E09382862ECB6004FDE2A /* Debug */,
+				093E09392862ECB6004FDE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093E091B2862ECB5004FDE2A /* Project object */;
+}

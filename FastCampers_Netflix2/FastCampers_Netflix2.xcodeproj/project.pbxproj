@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094D93C32869976800B7BB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93C22869976800B7BB2C /* AppDelegate.swift */; };
+		094D93C52869976800B7BB2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93C42869976800B7BB2C /* SceneDelegate.swift */; };
+		094D93CC2869976900B7BB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094D93CB2869976900B7BB2C /* Assets.xcassets */; };
+		094D93CF2869976900B7BB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094D93CD2869976900B7BB2C /* LaunchScreen.storyboard */; };
+		094D93E72869995B00B7BB2C /* ContentCollectionViewMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E02869995B00B7BB2C /* ContentCollectionViewMainCell.swift */; };
+		094D93E82869995B00B7BB2C /* ContentCollectionViewRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E12869995B00B7BB2C /* ContentCollectionViewRankCell.swift */; };
+		094D93E92869995B00B7BB2C /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E22869995B00B7BB2C /* ContentCollectionViewCell.swift */; };
+		094D93EA2869995B00B7BB2C /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E32869995B00B7BB2C /* Content.swift */; };
+		094D93EB2869995B00B7BB2C /* ContentCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E42869995B00B7BB2C /* ContentCollectionViewHeader.swift */; };
+		094D93EC2869995B00B7BB2C /* Content.plist in Resources */ = {isa = PBXBuildFile; fileRef = 094D93E52869995B00B7BB2C /* Content.plist */; };
+		094D93ED2869995B00B7BB2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D93E62869995B00B7BB2C /* HomeViewController.swift */; };
+		4B36985328DC78A77D600C86 /* Pods_FastCampers_Netflix2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807EDAD4C9708229E2E2F15E /* Pods_FastCampers_Netflix2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094D93BF2869976800B7BB2C /* FastCampers_Netflix2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampers_Netflix2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094D93C22869976800B7BB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094D93C42869976800B7BB2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		094D93CB2869976900B7BB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094D93CE2869976900B7BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094D93D02869976900B7BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094D93E02869995B00B7BB2C /* ContentCollectionViewMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewMainCell.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/ContentCollectionViewMainCell.swift"; sourceTree = "<group>"; };
+		094D93E12869995B00B7BB2C /* ContentCollectionViewRankCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewRankCell.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/ContentCollectionViewRankCell.swift"; sourceTree = "<group>"; };
+		094D93E22869995B00B7BB2C /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewCell.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/ContentCollectionViewCell.swift"; sourceTree = "<group>"; };
+		094D93E32869995B00B7BB2C /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Content.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/Content.swift"; sourceTree = "<group>"; };
+		094D93E42869995B00B7BB2C /* ContentCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentCollectionViewHeader.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/ContentCollectionViewHeader.swift"; sourceTree = "<group>"; };
+		094D93E52869995B00B7BB2C /* Content.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Content.plist; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/Content.plist"; sourceTree = "<group>"; };
+		094D93E62869995B00B7BB2C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = "../../../../Desktop/내 공부자료/ios 강의 자료/drive-download-20220627T050940Z-001/Ch6_NetflixStyle/NetflixStyleCollectionViewSampleApp/NetflixStyleCollectionViewSampleApp/HomeViewController.swift"; sourceTree = "<group>"; };
+		76D98523E9F7612576B638B2 /* Pods-FastCampers_Netflix2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCampers_Netflix2.release.xcconfig"; path = "Target Support Files/Pods-FastCampers_Netflix2/Pods-FastCampers_Netflix2.release.xcconfig"; sourceTree = "<group>"; };
+		807EDAD4C9708229E2E2F15E /* Pods_FastCampers_Netflix2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastCampers_Netflix2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902E0F59C724930176C48271 /* Pods-FastCampers_Netflix2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastCampers_Netflix2.debug.xcconfig"; path = "Target Support Files/Pods-FastCampers_Netflix2/Pods-FastCampers_Netflix2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094D93BC2869976800B7BB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B36985328DC78A77D600C86 /* Pods_FastCampers_Netflix2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094D93B62869976800B7BB2C = {
+			isa = PBXGroup;
+			children = (
+				094D93C12869976800B7BB2C /* FastCampers_Netflix2 */,
+				094D93C02869976800B7BB2C /* Products */,
+				5F4CB80516311570F84E223C /* Pods */,
+				E533BB32DE40C3F557346DBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		094D93C02869976800B7BB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094D93BF2869976800B7BB2C /* FastCampers_Netflix2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094D93C12869976800B7BB2C /* FastCampers_Netflix2 */ = {
+			isa = PBXGroup;
+			children = (
+				094D93E52869995B00B7BB2C /* Content.plist */,
+				094D93E32869995B00B7BB2C /* Content.swift */,
+				094D93E22869995B00B7BB2C /* ContentCollectionViewCell.swift */,
+				094D93E42869995B00B7BB2C /* ContentCollectionViewHeader.swift */,
+				094D93E02869995B00B7BB2C /* ContentCollectionViewMainCell.swift */,
+				094D93E12869995B00B7BB2C /* ContentCollectionViewRankCell.swift */,
+				094D93E62869995B00B7BB2C /* HomeViewController.swift */,
+				094D93C22869976800B7BB2C /* AppDelegate.swift */,
+				094D93C42869976800B7BB2C /* SceneDelegate.swift */,
+				094D93CB2869976900B7BB2C /* Assets.xcassets */,
+				094D93CD2869976900B7BB2C /* LaunchScreen.storyboard */,
+				094D93D02869976900B7BB2C /* Info.plist */,
+			);
+			path = FastCampers_Netflix2;
+			sourceTree = "<group>";
+		};
+		5F4CB80516311570F84E223C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				902E0F59C724930176C48271 /* Pods-FastCampers_Netflix2.debug.xcconfig */,
+				76D98523E9F7612576B638B2 /* Pods-FastCampers_Netflix2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E533BB32DE40C3F557346DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				807EDAD4C9708229E2E2F15E /* Pods_FastCampers_Netflix2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094D93BE2869976800B7BB2C /* FastCampers_Netflix2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094D93D32869976900B7BB2C /* Build configuration list for PBXNativeTarget "FastCampers_Netflix2" */;
+			buildPhases = (
+				E42FEBE2ED1E46AE90598CD4 /* [CP] Check Pods Manifest.lock */,
+				094D93BB2869976800B7BB2C /* Sources */,
+				094D93BC2869976800B7BB2C /* Frameworks */,
+				094D93BD2869976800B7BB2C /* Resources */,
+				63CC38A8C1248B11C3EE4869 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCampers_Netflix2;
+			productName = FastCampers_Netflix2;
+			productReference = 094D93BF2869976800B7BB2C /* FastCampers_Netflix2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094D93B72869976800B7BB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					094D93BE2869976800B7BB2C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 094D93BA2869976800B7BB2C /* Build configuration list for PBXProject "FastCampers_Netflix2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094D93B62869976800B7BB2C;
+			productRefGroup = 094D93C02869976800B7BB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094D93BE2869976800B7BB2C /* FastCampers_Netflix2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094D93BD2869976800B7BB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094D93CF2869976900B7BB2C /* LaunchScreen.storyboard in Resources */,
+				094D93CC2869976900B7BB2C /* Assets.xcassets in Resources */,
+				094D93EC2869995B00B7BB2C /* Content.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63CC38A8C1248B11C3EE4869 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCampers_Netflix2/Pods-FastCampers_Netflix2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastCampers_Netflix2/Pods-FastCampers_Netflix2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastCampers_Netflix2/Pods-FastCampers_Netflix2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42FEBE2ED1E46AE90598CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastCampers_Netflix2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094D93BB2869976800B7BB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094D93E82869995B00B7BB2C /* ContentCollectionViewRankCell.swift in Sources */,
+				094D93E72869995B00B7BB2C /* ContentCollectionViewMainCell.swift in Sources */,
+				094D93C32869976800B7BB2C /* AppDelegate.swift in Sources */,
+				094D93ED2869995B00B7BB2C /* HomeViewController.swift in Sources */,
+				094D93C52869976800B7BB2C /* SceneDelegate.swift in Sources */,
+				094D93E92869995B00B7BB2C /* ContentCollectionViewCell.swift in Sources */,
+				094D93EA2869995B00B7BB2C /* Content.swift in Sources */,
+				094D93EB2869995B00B7BB2C /* ContentCollectionViewHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		094D93CD2869976900B7BB2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094D93CE2869976900B7BB2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094D93D12869976900B7BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		094D93D22869976900B7BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094D93D42869976900B7BB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902E0F59C724930176C48271 /* Pods-FastCampers_Netflix2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_Netflix2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-Netflix2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094D93D52869976900B7BB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D98523E9F7612576B638B2 /* Pods-FastCampers_Netflix2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_Netflix2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-Netflix2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094D93BA2869976800B7BB2C /* Build configuration list for PBXProject "FastCampers_Netflix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094D93D12869976900B7BB2C /* Debug */,
+				094D93D22869976900B7BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094D93D32869976900B7BB2C /* Build configuration list for PBXNativeTarget "FastCampers_Netflix2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094D93D42869976900B7BB2C /* Debug */,
+				094D93D52869976900B7BB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094D93B72869976800B7BB2C /* Project object */;
+}

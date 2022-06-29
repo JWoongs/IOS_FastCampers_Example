@@ -1,0 +1,6 @@
+framework module Pods_FastCampers_Netflix2 {
+  umbrella header "Pods-FastCampers_Netflix2-umbrella.h"
+
+  export *
+  module * { export * }
+}

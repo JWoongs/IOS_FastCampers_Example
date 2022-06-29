@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09BE2EEE286C29680027E6D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2EED286C29680027E6D1 /* AppDelegate.swift */; };
+		09BE2EF0286C29680027E6D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2EEF286C29680027E6D1 /* SceneDelegate.swift */; };
+		09BE2EF7286C29690027E6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09BE2EF6286C29690027E6D1 /* Assets.xcassets */; };
+		09BE2EFA286C29690027E6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09BE2EF8286C29690027E6D1 /* LaunchScreen.storyboard */; };
+		09BE2F02286C29A70027E6D1 /* BeerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2F01286C29A70027E6D1 /* BeerListViewController.swift */; };
+		09BE2F05286C2B030027E6D1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 09BE2F04286C2B030027E6D1 /* SnapKit */; };
+		09BE2F08286C2B810027E6D1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 09BE2F07286C2B810027E6D1 /* Kingfisher */; };
+		09BE2F0A286C2BB90027E6D1 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2F09286C2BB90027E6D1 /* Beer.swift */; };
+		09BE2F0C286C2F790027E6D1 /* BeerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2F0B286C2F790027E6D1 /* BeerListCell.swift */; };
+		09BE2F0E286C32250027E6D1 /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BE2F0D286C32250027E6D1 /* BeerDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09BE2EEA286C29680027E6D1 /* FastCampers_Brewery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastCampers_Brewery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09BE2EED286C29680027E6D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09BE2EEF286C29680027E6D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09BE2EF6286C29690027E6D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09BE2EF9286C29690027E6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09BE2EFB286C29690027E6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09BE2F01286C29A70027E6D1 /* BeerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListViewController.swift; sourceTree = "<group>"; };
+		09BE2F09286C2BB90027E6D1 /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		09BE2F0B286C2F790027E6D1 /* BeerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerListCell.swift; sourceTree = "<group>"; };
+		09BE2F0D286C32250027E6D1 /* BeerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09BE2EE7286C29680027E6D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE2F08286C2B810027E6D1 /* Kingfisher in Frameworks */,
+				09BE2F05286C2B030027E6D1 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09BE2EE1286C29680027E6D1 = {
+			isa = PBXGroup;
+			children = (
+				09BE2EEC286C29680027E6D1 /* FastCampers_Brewery */,
+				09BE2EEB286C29680027E6D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09BE2EEB286C29680027E6D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BE2EEA286C29680027E6D1 /* FastCampers_Brewery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09BE2EEC286C29680027E6D1 /* FastCampers_Brewery */ = {
+			isa = PBXGroup;
+			children = (
+				09BE2EED286C29680027E6D1 /* AppDelegate.swift */,
+				09BE2EEF286C29680027E6D1 /* SceneDelegate.swift */,
+				09BE2EF6286C29690027E6D1 /* Assets.xcassets */,
+				09BE2EF8286C29690027E6D1 /* LaunchScreen.storyboard */,
+				09BE2EFB286C29690027E6D1 /* Info.plist */,
+				09BE2F01286C29A70027E6D1 /* BeerListViewController.swift */,
+				09BE2F09286C2BB90027E6D1 /* Beer.swift */,
+				09BE2F0B286C2F790027E6D1 /* BeerListCell.swift */,
+				09BE2F0D286C32250027E6D1 /* BeerDetailViewController.swift */,
+			);
+			path = FastCampers_Brewery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09BE2EE9286C29680027E6D1 /* FastCampers_Brewery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09BE2EFE286C29690027E6D1 /* Build configuration list for PBXNativeTarget "FastCampers_Brewery" */;
+			buildPhases = (
+				09BE2EE6286C29680027E6D1 /* Sources */,
+				09BE2EE7286C29680027E6D1 /* Frameworks */,
+				09BE2EE8286C29680027E6D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastCampers_Brewery;
+			packageProductDependencies = (
+				09BE2F04286C2B030027E6D1 /* SnapKit */,
+				09BE2F07286C2B810027E6D1 /* Kingfisher */,
+			);
+			productName = FastCampers_Brewery;
+			productReference = 09BE2EEA286C29680027E6D1 /* FastCampers_Brewery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09BE2EE2286C29680027E6D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					09BE2EE9286C29680027E6D1 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 09BE2EE5286C29680027E6D1 /* Build configuration list for PBXProject "FastCampers_Brewery" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09BE2EE1286C29680027E6D1;
+			packageReferences = (
+				09BE2F03286C2B030027E6D1 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				09BE2F06286C2B810027E6D1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 09BE2EEB286C29680027E6D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09BE2EE9286C29680027E6D1 /* FastCampers_Brewery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09BE2EE8286C29680027E6D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE2EFA286C29690027E6D1 /* LaunchScreen.storyboard in Resources */,
+				09BE2EF7286C29690027E6D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09BE2EE6286C29680027E6D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09BE2F02286C29A70027E6D1 /* BeerListViewController.swift in Sources */,
+				09BE2F0E286C32250027E6D1 /* BeerDetailViewController.swift in Sources */,
+				09BE2EEE286C29680027E6D1 /* AppDelegate.swift in Sources */,
+				09BE2EF0286C29680027E6D1 /* SceneDelegate.swift in Sources */,
+				09BE2F0A286C2BB90027E6D1 /* Beer.swift in Sources */,
+				09BE2F0C286C2F790027E6D1 /* BeerListCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09BE2EF8286C29690027E6D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09BE2EF9286C29690027E6D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09BE2EFC286C29690027E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09BE2EFD286C29690027E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09BE2EFF286C29690027E6D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_Brewery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-Brewery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09BE2F00286C29690027E6D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2NTQQHRK3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FastCampers_Brewery/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FastCampers.FastCampers-Brewery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09BE2EE5286C29680027E6D1 /* Build configuration list for PBXProject "FastCampers_Brewery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE2EFC286C29690027E6D1 /* Debug */,
+				09BE2EFD286C29690027E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09BE2EFE286C29690027E6D1 /* Build configuration list for PBXNativeTarget "FastCampers_Brewery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE2EFF286C29690027E6D1 /* Debug */,
+				09BE2F00286C29690027E6D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09BE2F03286C2B030027E6D1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		09BE2F06286C2B810027E6D1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09BE2F04286C2B030027E6D1 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09BE2F03286C2B030027E6D1 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		09BE2F07286C2B810027E6D1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09BE2F06286C2B810027E6D1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09BE2EE2286C29680027E6D1 /* Project object */;
+}
